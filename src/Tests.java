@@ -20,5 +20,13 @@ public class Tests {
 		answ.add(2);
 		assertEquals(answ, pf.factorize());
 	}
+	
+	@Test
+	public void test_factorizeFor3() {
+		PrimeFactorization pf = new PrimeFactorization(3);
+		ArrayList answ = new ArrayList();
+		answ.add(3);
+		assertEquals(answ, pf.factorize());
+	}
 
 }
