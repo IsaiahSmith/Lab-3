@@ -10,6 +10,9 @@ public class PrimeFactorization {
 	
 	public ArrayList factorize(){
 		ArrayList list = new ArrayList();
+		if(this.number == 2){
+			list.add(2);
+		}
 		return list;
 	}
 	
