@@ -9,7 +9,8 @@ public class PrimeFactorization {
 	}
 	
 	public ArrayList factorize(){
-		return null;
+		ArrayList list = new ArrayList();
+		return list;
 	}
 	
 }
