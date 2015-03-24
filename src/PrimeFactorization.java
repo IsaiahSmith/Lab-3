@@ -12,6 +12,8 @@ public class PrimeFactorization {
 		ArrayList list = new ArrayList();
 		if(this.number == 2){
 			list.add(2);
+		}else if(this.number == 3){
+			list.add(3);
 		}
 		return list;
 	}
