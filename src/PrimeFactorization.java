@@ -14,6 +14,9 @@ public class PrimeFactorization {
 			list.add(2);
 		}else if(this.number == 3){
 			list.add(3);
+		}else if(this.number == 4){
+			list.add(2);
+			list.add(2);
 		}
 		return list;
 	}
