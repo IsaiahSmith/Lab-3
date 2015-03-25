@@ -40,7 +40,7 @@ public class Tests {
 	
 	@Test
 	public void test_factorizeFor6() {
-		PrimeFactorization pf = new PrimeFactorization(4);
+		PrimeFactorization pf = new PrimeFactorization(6);
 		ArrayList answ = new ArrayList();
 		answ.add(2);
 		answ.add(3);
