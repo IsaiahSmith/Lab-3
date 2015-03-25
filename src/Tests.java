@@ -33,7 +33,8 @@ public class Tests {
 	public void test_factorizeFor4() {
 		PrimeFactorization pf = new PrimeFactorization(4);
 		ArrayList answ = new ArrayList();
-		answ.add(3);
+		answ.add(2);
+		answ.add(2);
 		assertEquals(answ, pf.factorize());
 	}
 }
