@@ -20,6 +20,10 @@ public class PrimeFactorization {
 		}else if(this.number == 6){
 			list.add(2);
 			list.add(3);
+		}else if(this.number == 8){
+			list.add(2);
+			list.add(2);
+			list.add(2);
 		}
 		return list;
 	}
