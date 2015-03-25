@@ -46,4 +46,14 @@ public class Tests {
 		answ.add(3);
 		assertEquals(answ, pf.factorize());
 	}
+	
+	@Test
+	public void test_factorizeFor8() {
+		PrimeFactorization pf = new PrimeFactorization(8);
+		ArrayList answ = new ArrayList();
+		answ.add(2);
+		answ.add(2);
+		answ.add(2);
+		assertEquals(answ, pf.factorize());
+	}
 }
