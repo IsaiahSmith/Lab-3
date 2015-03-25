@@ -65,4 +65,15 @@ public class Tests {
 		answ.add(3);
 		assertEquals(answ, pf.factorize());
 	}
+	
+	@Test
+	public void test_factorizeFor325115() {
+		PrimeFactorization pf = new PrimeFactorization(325115);
+		ArrayList answ = new ArrayList();
+		answ.add(5);
+		answ.add(7);
+		answ.add(7);
+		answ.add(1327);
+		assertEquals(answ, pf.factorize());
+	}
 }
