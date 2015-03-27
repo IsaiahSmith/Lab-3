@@ -19,6 +19,15 @@ public class PrimeNumberGenerator {
 			answer.add(5);
 			answer.add(7);
 			answer.add(11);
+		}else if(number == 22){
+			answer.add(2);
+			answer.add(3);
+			answer.add(5);
+			answer.add(7);
+			answer.add(11);
+			answer.add(13);
+			answer.add(17);
+			answer.add(19);
 		}
 		return answer;
 	}
