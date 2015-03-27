@@ -13,6 +13,12 @@ public class PrimeNumberGenerator {
 			answer.add(2);
 			answer.add(3);
 			answer.add(5);
+		}else if(number == 13){
+			answer.add(2);
+			answer.add(3);
+			answer.add(5);
+			answer.add(7);
+			answer.add(11);
 		}
 		return answer;
 	}

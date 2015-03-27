@@ -39,6 +39,8 @@ public class GeneratorTests {
 		  answ3.add(2);
 		  answ3.add(3);
 		  answ3.add(5);
+		  answ3.add(7);
+		  answ3.add(11);
 	      return Arrays.asList(new Object[][] {
 	         { 2, answ1 },
 	         { 6, answ2 },
