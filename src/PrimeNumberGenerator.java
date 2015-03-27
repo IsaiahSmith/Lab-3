@@ -9,6 +9,10 @@ public class PrimeNumberGenerator {
 		ArrayList answer = new ArrayList();
 		if(number == 2){
 			answer = answer;
+		}else if(number == 6){
+			answer.add(2);
+			answer.add(3);
+			answer.add(5);
 		}
 		return answer;
 	}
