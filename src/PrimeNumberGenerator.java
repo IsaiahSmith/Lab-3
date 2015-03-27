@@ -33,7 +33,7 @@ public class PrimeNumberGenerator {
 			answer.add(5);
 			answer.add(7);
 			answer.add(11);
-		}else if(number == 22 || number == 23 || number == 24){
+		}else if(number == 22 || number == 23){
 			answer.add(2);
 			answer.add(3);
 			answer.add(5);
@@ -42,6 +42,16 @@ public class PrimeNumberGenerator {
 			answer.add(13);
 			answer.add(17);
 			answer.add(19);
+		}else if(number == 24){
+			answer.add(2);
+			answer.add(3);
+			answer.add(5);
+			answer.add(7);
+			answer.add(11);
+			answer.add(13);
+			answer.add(17);
+			answer.add(19);
+			answer.add(23);
 		}
 		return answer;
 	}

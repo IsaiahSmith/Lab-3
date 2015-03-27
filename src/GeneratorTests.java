@@ -50,13 +50,35 @@ public class GeneratorTests {
 		  answ4.add(13);
 		  answ4.add(17);
 		  answ4.add(19);
+		  ArrayList answ5 = new ArrayList();
+		  answ5.add(2);
+		  answ5.add(3);
+		  answ5.add(5);
+		  answ5.add(7);
+		  answ5.add(11);
+		  answ5.add(13);
+		  answ5.add(17);
+		  answ5.add(19);
+		  answ5.add(23);
+		  ArrayList answ6 = new ArrayList();
+		  answ6.add(2);
+		  answ6.add(3);
+		  answ6.add(5);
+		  answ6.add(7);
+		  answ6.add(11);
+		  answ6.add(13);
+		  answ6.add(17);
+		  answ6.add(19);
+		  answ6.add(23);
+		  answ6.add(29);
 		  return Arrays.asList(new Object[][] {
 	         { 2, answ1 },
 	         { 6, answ2 },
 	         { 13, answ3 },
 	         { 22, answ4 },
 	         { 23, answ4 },
-	         { 24, answ4}
+	         { 24, answ5},
+	         { 30, answ6}
 	         });
 	   }
 
