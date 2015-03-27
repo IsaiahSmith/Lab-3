@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import org.junit.Test;
 
 
-public class Tests {
+public class FactorizationTests {
 
 	@Test
 	public void test_factorizeFor1() {
