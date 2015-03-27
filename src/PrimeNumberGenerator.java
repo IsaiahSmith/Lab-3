@@ -6,7 +6,11 @@ public class PrimeNumberGenerator {
 	
 	public ArrayList generate(int inputNumber){
 		this.number = inputNumber;
-		return null;		
+		ArrayList answer = new ArrayList();
+		if(number == 2){
+			answer = answer;
+		}
+		return answer;
 	}
 
 }
