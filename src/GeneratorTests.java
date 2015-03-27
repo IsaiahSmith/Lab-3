@@ -54,7 +54,8 @@ public class GeneratorTests {
 	         { 2, answ1 },
 	         { 6, answ2 },
 	         { 13, answ3 },
-	         { 22, answ4 }
+	         { 22, answ4 },
+	         { 23, answ4 }
 	         });
 	   }
 

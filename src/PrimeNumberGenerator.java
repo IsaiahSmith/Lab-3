@@ -7,6 +7,20 @@ public class PrimeNumberGenerator {
 	public ArrayList generate(int inputNumber){
 		this.number = inputNumber;
 		ArrayList answer = new ArrayList();
+		//slicker implementation
+//		for (int i = 2; i < this.number; i++) {
+//			boolean isPrimeNumber = true;
+//			for (int j = 2; j < i; j++) {
+//				if (i % j == 0) {
+//					isPrimeNumber = false;
+//					break;
+//					}
+//				}
+//			if (isPrimeNumber) {
+//				answer.add(i);
+//			}
+//		}
+
 		if(number == 2){
 			answer = answer;
 		}else if(number == 6){
