@@ -31,8 +31,13 @@ public class GeneratorTests {
 	   @Parameterized.Parameters
 	   public static Collection primeNumbers() {
 		  ArrayList answ1 = new ArrayList();
+		  ArrayList answ2 = new ArrayList();
+		  answ2.add(2);
+		  answ2.add(3);
+		  answ2.add(5);
 	      return Arrays.asList(new Object[][] {
-	         { 2, answ1 }
+	         { 2, answ1 },
+	         { 6, answ2 }	         
 	         });
 	   }
 
